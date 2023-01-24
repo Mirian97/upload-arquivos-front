@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    min-height: 100vh;
+}
+
+.btn-orange {
+    background-color: orange;
+}
+
+.btn-purple {
+    background-color: purple;
+}
+
+.upload-img img {
+    width: 300px;
+    height: 300px;
+    border-top: 8px solid purple;
+    border-left: 8px solid purple;
+    border-right: 8px solid orange;
+    border-bottom: 8px solid orange;
+}
